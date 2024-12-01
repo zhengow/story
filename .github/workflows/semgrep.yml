@@ -12,6 +12,7 @@ on:
     paths:
       - .github/workflows/semgrep.yml
   # Schedule the CI job (this method uses cron syntax):
+  workflow_dispatch
 
 jobs:
   semgrep:
