@@ -166,7 +166,7 @@ Once done, you should be able to run each of your consensus nodes with the same 
 ./story run --home ${STORY_ROOT_DATA_DIR}
 ```
 
-#### 4. Running Validators
+#### 4. Running Validators 
 
 Once the network is setup, you will be able to run validator operations using the validator key generated in `story/data/priv_validator_key.json`. In fact, `story` comes with a `validator` subcommand that allows you to streamline this process. For more information on running validators, read our [official docs](https://docs.story.foundation/docs/what-is-story).
 
